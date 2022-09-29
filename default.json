@@ -5,13 +5,13 @@
 	"platformAutomerge": true,
 	"timezone": "America/Vancouver",
 	"schedule": ["after 1am and before 7am"],
-  "packageRules": [
-    {
-      "groupName": "Escact Repositories",
-      "automerge": true,
-      "matchSourceUrlPrefixes": [
-        "https://github.com/ecsact-dev/"
-      ]
-    }
-  ]
+	"packageRules": [
+		{
+			"groupName": "Escact Repositories",
+			"automerge": true,
+			"matchSourceUrlPrefixes": [
+				"https://github.com/ecsact-dev/"
+			]
+		}
+	]
 }
