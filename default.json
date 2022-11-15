@@ -1,17 +1,22 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:base"],
 	"automerge": false,
-	"platformAutomerge": true,
-	"timezone": "America/Vancouver",
-	"schedule": ["after 1am and before 7am"],
+	"extends": [
+		"config:base",
+		":disableDependencyDashboard"
+	],
 	"packageRules": [
 		{
-			"groupName": "Escact Repositories",
 			"automerge": true,
+			"groupName": "Escact Repositories",
 			"matchSourceUrlPrefixes": [
 				"https://github.com/ecsact-dev/"
 			]
 		}
-	]
+	],
+	"platformAutomerge": true,
+	"schedule": [
+		"after 1am and before 7am"
+	],
+	"timezone": "America/Vancouver"
 }
