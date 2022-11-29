@@ -9,7 +9,9 @@
 		{
 			"automerge": true,
 			"groupName": "Escact Repositories",
-			"matchPackagePrefixes": ["ecsact_"]
+			"matchPackagePrefixes": [
+				"ecsact_"
+			]
 		}
 	],
 	"platformAutomerge": true,
