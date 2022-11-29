@@ -9,9 +9,7 @@
 		{
 			"automerge": true,
 			"groupName": "Escact Repositories",
-			"matchSourceUrlPrefixes": [
-				"https://github.com/ecsact-dev/"
-			]
+			"matchPackagePrefixes": ["ecsact_"]
 		}
 	],
 	"platformAutomerge": true,
