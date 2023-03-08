@@ -3,7 +3,8 @@
 	"automerge": false,
 	"extends": [
 		"config:base",
-		":disableDependencyDashboard"
+		":disableDependencyDashboard",
+		":semanticCommits"
 	],
 	"packageRules": [
 		{
