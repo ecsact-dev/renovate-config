@@ -13,6 +13,13 @@
 			"matchPackagePrefixes": [
 				"ecsact_"
 			]
+		},
+		{
+			"groupName": "Bazel C++ Tooling Repositories",
+			"matchPackageNames": [
+				"hedron_compile_commands",
+				"com_grail_bazel_toolchain"
+			]
 		}
 	],
 	"platformAutomerge": true,
