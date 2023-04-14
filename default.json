@@ -15,6 +15,7 @@
 			]
 		},
 		{
+			"automerge": true,
 			"groupName": "Bazel C++ Tooling Repositories",
 			"matchPackageNames": [
 				"hedron_compile_commands",
