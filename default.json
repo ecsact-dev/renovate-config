@@ -8,7 +8,7 @@
 	],
 	"packageRules": [
 		{
-			"automerge": false,
+			"automerge": true,
 			"groupName": "Escact Repositories",
 			"matchPackagePrefixes": [
 				"ecsact_"
@@ -18,14 +18,14 @@
 			"automerge": true,
 			"groupName": "Bazel C++ Tooling Repositories",
 			"matchPackageNames": [
-				"hedron_compile_commands",
-				"com_grail_bazel_toolchain"
+				"toolchains_llvm",
+				"hedron_compile_commands"
 			]
 		}
 	],
 	"platformAutomerge": true,
 	"schedule": [
-		"after 1am and before 7am"
+		"after 1am and before 6am"
 	],
 	"timezone": "America/Vancouver"
 }
