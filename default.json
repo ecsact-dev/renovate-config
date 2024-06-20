@@ -9,7 +9,7 @@
 	"packageRules": [
 		{
 			"automerge": true,
-			"groupName": "Escact Repositories",
+			"groupName": "Ecsact Repositories",
 			"matchPackagePrefixes": [
 				"ecsact_"
 			]
