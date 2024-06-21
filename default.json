@@ -11,8 +11,12 @@
 			"automerge": true,
 			"groupName": "Ecsact Repositories",
 			"matchPackagePrefixes": [
-				"ecsact_"
-			]
+				"ecsact_",
+        "ecsact-",
+			],
+      "matchPackageNames": [
+        "rules_ecsact",
+      ],
 		},
 		{
 			"automerge": true,
