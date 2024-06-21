@@ -21,7 +21,19 @@
 				"toolchains_llvm",
 				"hedron_compile_commands"
 			]
-		}
+		},
+    {
+      "enabled": false,
+      // These are updated via https://github.com/ecsact-dev/ecsact_common
+      "matchPackageNames": [
+        "bazel",
+        "crate-ci/typos",
+        "jidicula/clang-format-action",
+        "actions/cache",
+        "actions/checkout",
+        "greut/eclint-action",
+      ]
+    }
 	],
 	"platformAutomerge": true,
 	"schedule": [
